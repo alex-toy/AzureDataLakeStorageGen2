@@ -2,7 +2,8 @@
 
 **Data Lake Storage Gen 2** is the best storage solution for big data analytics in Azure. With its Hadoop compatible access, it is a perfect fit for existing platforms like Databricks, Cloudera, Hortonworks, Hadoop, HDInsight and many more.
 
-## Architecture
+
+## Exploration
 
 <img src="/pictures/adsl.png" title="adsl"  width="800">
 
@@ -25,4 +26,32 @@ You can add a user to a group :
 You can also do the same at the container level :
 
 <img src="/pictures/access_management3.png" title="access management"  width="800">
+
+You can also create folders :
+
+<img src="/pictures/create_folder.png" title="create folder"  width="800">
+
+
+## Power BI
+
+**Power BI** can connect to ADLS in two ways. 
+
+1. Get Data / Azure / Azure Datalake Storage Gen 2
+
+<img src="/pictures/powerbi.png" title="power BI"  width="800">
+
+You need the full url address for **Azure Datalake Storage Gen 2**. You will find it in the *Endpoint* section :
+
+<img src="/pictures/powerbi2.png" title="power BI"  width="800">
+
+
+2. Get Data / Azure / Azure Blob Storage
+
+Just provide the name of the storage account. You can grab the key in the **Access Keys** section.
+
+<img src="/pictures/powerbi3.png" title="power BI"  width="800">
+
+Clic *Transform Data*
+
+<img src="/pictures/powerbi4.png" title="power BI"  width="800">
 
